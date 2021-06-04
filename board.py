@@ -47,7 +47,7 @@ class Board(tk.Tk):
 
         # Label del estado
         self.status = tk.Label(self, anchor="c", font=(None, 16),
-            bg="#212121", fg="#fff", text="Green player's turn")
+            bg="#000000", fg="#fff", text="Turno color negro")
         self.status.grid(row=self.b_size + 3, column=0,
             columnspan=self.b_size + 3, sticky="ewns")
 
